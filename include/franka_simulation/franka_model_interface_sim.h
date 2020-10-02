@@ -2,7 +2,6 @@
 #define FRANKA_MODEL_INTERFACE_SIM_H
 
 #include <franka_hw/franka_model_interface.h>
-#include "model_sim.h"
 #include "franka_model.h"
 
 #include <eigen3/Eigen/Dense>
