@@ -25,13 +25,11 @@ catkin_package(
 )
 
 set(${PROJECT_NAME}_headers
-  include/franka_simulation/model_sim.h
   include/franka_simulation/franka_model_interface_sim.h
   include/franka_simulation/franka_model.h
 )
 
 set(${PROJECT_NAME}_sources
-    src/model_sim.cpp
     src/GravityVector.cpp
     src/FrictionTorque.cpp
     #src/CoriolisMatrix.cpp
